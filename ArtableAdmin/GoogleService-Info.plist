@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>912263021086-f7r9pq7j78vp07oklpvcasvar20vp514.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.912263021086-f7r9pq7j78vp07oklpvcasvar20vp514</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCTViu4LWmt4WI0o5m-Z73KCLrNTvL8biE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>912263021086</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jhammermedia.ArtableAdmin</string>
+	<key>PROJECT_ID</key>
+	<string>artable-71bad</string>
+	<key>STORAGE_BUCKET</key>
+	<string>artable-71bad.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:912263021086:ios:fdf910af8203afc6</string>
+	<key>DATABASE_URL</key>
+	<string>https://artable-71bad.firebaseio.com</string>
+</dict>
+</plist>

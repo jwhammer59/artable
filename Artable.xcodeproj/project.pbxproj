@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		27EB11AF99F72DB975EC41DC /* Pods_ArtableAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40751404F9465BAC120EF51 /* Pods_ArtableAdmin.framework */; };
 		9EAB90FB1D680095323FA73F /* Pods_Artable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1785C9439AC127B5C3F2716 /* Pods_Artable.framework */; };
+		E107D8AB21FEA80C0012861A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E107D8AA21FEA80C0012861A /* GoogleService-Info.plist */; };
+		E107D8AD21FEA9AC0012861A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E107D8AC21FEA9AC0012861A /* GoogleService-Info.plist */; };
+		E107D8B721FFEFC00012861A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D8B621FFEFC00012861A /* LoginVC.swift */; };
+		E107D8B921FFEFD90012861A /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D8B821FFEFD90012861A /* RegisterVC.swift */; };
+		E107D8BC21FFF7020012861A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D8BB21FFF7020012861A /* Extensions.swift */; };
+		E107D8BE21FFFB6B0012861A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D8BD21FFFB6B0012861A /* Constants.swift */; };
+		E107D8C121FFFDFE0012861A /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D8C021FFFDFE0012861A /* RoundedViews.swift */; };
 		E111D73F21FE344100949AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E111D73E21FE344100949AEF /* AppDelegate.swift */; };
 		E111D74121FE344100949AEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E111D74021FE344100949AEF /* ViewController.swift */; };
 		E111D74421FE344100949AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E111D74221FE344100949AEF /* Main.storyboard */; };
@@ -28,6 +35,13 @@
 		A40751404F9465BAC120EF51 /* Pods_ArtableAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtableAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE469EEB70C3E031DBF4C40D /* Pods-Artable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Artable/Pods-Artable.debug.xcconfig"; sourceTree = "<group>"; };
 		C1785C9439AC127B5C3F2716 /* Pods_Artable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E107D8AA21FEA80C0012861A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E107D8AC21FEA9AC0012861A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E107D8B621FFEFC00012861A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E107D8B821FFEFD90012861A /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		E107D8BB21FFF7020012861A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E107D8BD21FFFB6B0012861A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E107D8C021FFFDFE0012861A /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
 		E111D73B21FE344100949AEF /* Artable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E111D73E21FE344100949AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E111D74021FE344100949AEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +99,58 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E107D8AE21FFEF000012861A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E107D8B621FFEFC00012861A /* LoginVC.swift */,
+				E107D8B821FFEFD90012861A /* RegisterVC.swift */,
+				E111D73E21FE344100949AEF /* AppDelegate.swift */,
+				E111D74021FE344100949AEF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E107D8AF21FFEF090012861A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E107D8B021FFEF0E0012861A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E107D8B121FFEF130012861A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E111D76821FE3BFB00949AEF /* LoginStoryboard.storyboard */,
+				E111D74221FE344100949AEF /* Main.storyboard */,
+				E111D74721FE344200949AEF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E107D8BA21FFF6ED0012861A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E107D8BB21FFF7020012861A /* Extensions.swift */,
+				E107D8BD21FFFB6B0012861A /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E107D8BF21FFFDDE0012861A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E107D8C021FFFDFE0012861A /* RoundedViews.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E111D73221FE344100949AEF = {
 			isa = PBXGroup;
 			children = (
@@ -109,11 +175,11 @@
 		E111D73D21FE344100949AEF /* Artable */ = {
 			isa = PBXGroup;
 			children = (
-				E111D73E21FE344100949AEF /* AppDelegate.swift */,
-				E111D74021FE344100949AEF /* ViewController.swift */,
-				E111D76821FE3BFB00949AEF /* LoginStoryboard.storyboard */,
-				E111D74221FE344100949AEF /* Main.storyboard */,
-				E111D74721FE344200949AEF /* LaunchScreen.storyboard */,
+				E107D8B021FFEF0E0012861A /* Model */,
+				E107D8AF21FFEF090012861A /* View */,
+				E107D8AE21FFEF000012861A /* Controller */,
+				E107D8B121FFEF130012861A /* Storyboards */,
+				E107D8AA21FEA80C0012861A /* GoogleService-Info.plist */,
 				E111D74A21FE344200949AEF /* Info.plist */,
 			);
 			path = Artable;
@@ -126,6 +192,7 @@
 				E111D75821FE349600949AEF /* ViewController.swift */,
 				E111D75A21FE349600949AEF /* Main.storyboard */,
 				E111D75F21FE349600949AEF /* LaunchScreen.storyboard */,
+				E107D8AC21FEA9AC0012861A /* GoogleService-Info.plist */,
 				E111D76221FE349600949AEF /* Info.plist */,
 			);
 			path = ArtableAdmin;
@@ -134,6 +201,8 @@
 		E111D76621FE34D200949AEF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E107D8BF21FFFDDE0012861A /* View */,
+				E107D8BA21FFF6ED0012861A /* Utils */,
 				E111D74521FE344200949AEF /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -226,6 +295,7 @@
 			files = (
 				E111D74921FE344200949AEF /* LaunchScreen.storyboard in Resources */,
 				E111D74621FE344200949AEF /* Assets.xcassets in Resources */,
+				E107D8AB21FEA80C0012861A /* GoogleService-Info.plist in Resources */,
 				E111D74421FE344100949AEF /* Main.storyboard in Resources */,
 				E111D76921FE3BFB00949AEF /* LoginStoryboard.storyboard in Resources */,
 			);
@@ -238,6 +308,7 @@
 				E111D76121FE349600949AEF /* LaunchScreen.storyboard in Resources */,
 				E111D76721FE34F900949AEF /* Assets.xcassets in Resources */,
 				E111D75C21FE349600949AEF /* Main.storyboard in Resources */,
+				E107D8AD21FEA9AC0012861A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,8 +476,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E107D8BC21FFF7020012861A /* Extensions.swift in Sources */,
 				E111D74121FE344100949AEF /* ViewController.swift in Sources */,
+				E107D8B921FFEFD90012861A /* RegisterVC.swift in Sources */,
 				E111D73F21FE344100949AEF /* AppDelegate.swift in Sources */,
+				E107D8C121FFFDFE0012861A /* RoundedViews.swift in Sources */,
+				E107D8B721FFEFC00012861A /* LoginVC.swift in Sources */,
+				E107D8BE21FFFB6B0012861A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
